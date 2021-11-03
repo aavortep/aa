@@ -1,0 +1,52 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{wil}
+\selectlanguageifdefined{russian}
+A.~Williams. C++ Concurrency in Action: Practical Multithreading. Manning
+  Publications Co.
+\newblock 2019.
+
+\bibitem{rot}
+\selectlanguageifdefined{russian}
+Лурье~А.~И. Аналитическая механика. —
+  М.:Физматлит.
+\newblock 1961.
+\newblock {с.}~824.
+
+\bibitem{thread}
+\selectlanguageifdefined{russian}
+Класс thread.
+\newblock Режим доступа:
+  https://docs.microsoft.com/ru-ru/cpp/standard-library/thread-class?view=msvc-160.
+  Дата обращения: 26.10.2021.
+
+\bibitem{process}
+\selectlanguageifdefined{russian}
+GetProcessTimes function (processthreadsapi.h).
+\newblock Режим доступа:
+  https://docs.microsoft.com/ru-ru/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes?redirectedfrom=MSDN.
+  Дата обращения: 27.10.2021.
+
+\bibitem{home}
+\selectlanguageifdefined{russian}
+Windows 10 Pro и Windows 10 Домашняя.
+\newblock Режим доступа:
+  https://www.microsoft.com/ru-ru/windows/compare-windows-10-home-vs-pro.
+  Дата обращения: 18.10.2021.
+
+\bibitem{i3}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i3-1115G4 (6 МБ кэш-памяти, до
+  4,10 ГГц).
+\newblock Режим доступа:
+  https://www.intel.ru/content/www/ru/ru/products/sku/208652/intel-core-i31115g4-processor-6m-cache-up-to-4-10-ghz/specifications.html.
+  Дата обращения: 14.10.2021.
+
+\end{thebibliography}

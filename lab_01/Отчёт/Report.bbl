@@ -1,0 +1,48 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Levenshtein}
+\selectlanguageifdefined{russian}
+Левенштейн~В.~И. Двоичные коды с
+  исправлением выпадений, вставок и
+  замещений символов. Доклады Академий Наук
+  СССР.
+\newblock 1965.
+\newblock {с.}~845.
+
+\bibitem{Damerau}
+\selectlanguageifdefined{russian}
+Damerau~Fred~J. A technique for computer detection and correction of spelling
+  errors. Communications of the ACM.
+\newblock 1964.
+\newblock {с.}~171.
+
+\bibitem{home}
+\selectlanguageifdefined{russian}
+Windows 10 Pro и Windows 10 Домашняя.
+\newblock
+  https://www.microsoft.com/ru-ru/windows/compare-windows-10-home-vs-pro.
+  Дата обращения: 18.10.2021.
+
+\bibitem{i3}
+\selectlanguageifdefined{russian}
+Процессор Intel® Core™ i3-1115G4 (6 МБ кэш-памяти, до
+  4,10 ГГц).
+\newblock Режим доступа:
+  https://www.intel.ru/content/www/ru/ru/products/sku/208652/intel-core-i31115g4-processor-6m-cache-up-to-4-10-ghz/specifications.html.
+  Дата обращения: 14.10.2021.
+
+\bibitem{process}
+\selectlanguageifdefined{russian}
+Функция process\_time() модуля time в Python.
+\newblock
+  https://docs-python.ru/standart-library/modul-time-python/funktsija-process-time-modulja-time/.
+  Дата обращения: 5.10.2021.
+
+\end{thebibliography}

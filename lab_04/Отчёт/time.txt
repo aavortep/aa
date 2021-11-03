@@ -1,0 +1,74 @@
+Results (number of points = 8000):
+
+Number of threads: 1
+
+Linear alg: 890
+Parallel alg: 328
+
+Number of threads: 2
+
+Linear alg: 891
+Parallel alg: 312
+
+Number of threads: 4
+
+Linear alg: 907
+Parallel alg: 218
+
+Number of threads: 8
+
+Linear alg: 891
+Parallel alg: 594
+
+Number of threads: 16
+
+Linear alg: 906
+Parallel alg: 1094
+
+Number of threads: 32
+
+Linear alg: 890
+Parallel alg: 1766
+
+
+Results (number of threads = 4):
+
+Number of points: 1000
+
+Linear alg: 109
+Parallel alg: 235
+
+Number of points: 2000
+
+Linear alg: 203
+Parallel alg: 234
+
+Number of points: 3000
+
+Linear alg: 344
+Parallel alg: 328
+
+Number of points: 4000
+
+Linear alg: 438
+Parallel alg: 297
+
+Number of points: 5000
+
+Linear alg: 546
+Parallel alg: 219
+
+Number of points: 6000
+
+Linear alg: 641
+Parallel alg: 265
+
+Number of points: 7000
+
+Linear alg: 766
+Parallel alg: 406
+
+Number of points: 8000
+
+Linear alg: 891
+Parallel alg: 484
