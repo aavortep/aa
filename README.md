@@ -1,2 +1,1 @@
-# aa
-Analysis of algorithms
+Здесь в основном питон в перемешку с С++
