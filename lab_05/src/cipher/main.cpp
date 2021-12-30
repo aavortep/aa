@@ -10,7 +10,7 @@
 
 #define INPUT_FAIL -1
 #define SUCCESS 0
-#define SIZE 50000
+#define SIZE 10
 
 static clock_t start_t;
 
@@ -394,8 +394,8 @@ int parallel()
 
     create_log(clock() - start_t, "paral.txt");
 
-    //for (size_t i = 0; i < res.size(); ++i)
-        //cout << objvec[i] << " --> " << res[i] << endl;
+    for (size_t i = 0; i < res.size(); ++i)
+        cout << objvec[i] << " --> " << res[i] << endl;
 
     return SUCCESS;
 }
@@ -507,8 +507,8 @@ int synch()
 
     create_log(clock() - start_t, "synch.txt");
 
-    //for (size_t i = 0; i < res.size(); ++i)
-        //cout << objvec[i] << " --> " << res[i] << endl;
+    for (size_t i = 0; i < res.size(); ++i)
+        cout << objvec[i] << " --> " << res[i] << endl;
 
     return SUCCESS;
 }
