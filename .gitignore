@@ -133,3 +133,13 @@ dmypy.json
 build-*
 *.pro*
 *.ts
+*.exe
+*.o
+
+*.png
+
+*.c*flags
+*.creator*
+*.config
+*.files
+*.includes
